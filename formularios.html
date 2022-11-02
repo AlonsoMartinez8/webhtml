@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="img/header logo.png" width="150px">
+            <h1 class="title">HTML 5 CSS 3</h1>
+            <div class="cb"></div>
+        </header>
+        <div id="head">
+            <h1 class="site">FORMULARIOS</h1>
+            <h1 class="data">Página web de Alonso Martinez en S1DAM</h1>
+            <div class="cb"></div>
+        </div>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="párrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="form-html5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="form">
+                    <h1 class="txt-center">FORMULARIOS</h1>
+                    <h2>Formulario de Log In</h2>
+                    <form action="pagina.php" method="get">
+                        <input type="text" name="user" id=""/>
+                        <input type="password" name="clave" id=""/>
+                        <input type="submit" value="Registrarse"/>
+                    </form>
+                    <h2>Formulario de Register</h2>
+                    <form action="pagina.php" method="get">
+                        <fieldset>
+                            <legend><span class="tag">legend</span></legend>
+                            <input type="text" name="user" placeholder="user" id=""/>
+                            <input type="password" name="clave" placeholder="clave" id=""/>
+                            <p>Aficiones:</p>
+                            <input type="checkbox" name="aficiones" id="" value="cine">cine
+                            <input type="checkbox" name="aficiones" id="" value="leer">leer
+                            <input type="checkbox" name="aficiones" id="" value="viajar">viajar
+                            <input type="checkbox" name="aficiones" id="" value="comer">comer
+                        </fieldset>
+                        <fieldset>
+                            <p>Sexo:</p>
+                            <input type="radio" name="sexo" id="" value="hombre">hombre
+                            <input type="radio" name="sexo" id="" value="mujer">mujer
+                            <input type="radio" name="sexo" id="" value="otro">otro
+                            <p>Provincia:</p>
+                            <select name="provincia" id="">
+                                <option value="0" disabled selected>Elija provincia</option>
+                                <option value="1">Albacete</option>
+                                <option value="2">Ciudad Real</option>
+                                <option value="3">Cuenca</option>
+                                <option value="4">Guadalajara</option>
+                                <option value="5">Toledo</option>
+                            </select>
+                            <p>Provincia <span class="tag">multiple</span></p>
+                            <select name="provincia" id="" multiple size="5">
+                                <option value="0" disabled selected>Elija provincia</option>
+                                <option value="1">Albacete</option>
+                                <option value="2">Ciudad Real</option>
+                                <option value="3">Cuenca</option>
+                                <option value="4">Guadalajara</option>
+                                <option value="5">Toledo</option>
+                            </select>
+                        </fieldset>
+                        <h2>Input tipo Submit</h2>
+                        <input type="submit" value="Registrarse"/>
+                        <hr/>
+                    </form>
+                    <h2>FORMULARIO CON DISEÑO</h2>
+                    <form action="pagina.php" method="get" class="registro">
+                        <fieldset>
+                            <legend>LOG IN</legend>
+                            <p>USUARIO</p>
+                            <input type="text" name="nombre" placeholder="Nombre" id="">
+                            <input type="text" name="apellidos" placeholder="Apellidos" id="">
+                            <input type="number" name="telefono" placeholder="Numero de telefono" id="">
+                            <input type="email" name="mail" placeholder="Correo electronico" id="">
+                            <p>SEGURIDAD</p>
+                            <input type="password" name="contraseña" placeholder="Contraseña" id="">
+                            <input type="password" name="contraseña2" placeholder="Verifique contraseña" id="">
+                            <p>SEXO</p>
+                            <p>Hombre</p>
+                            <input class="radio" type="radio" name="hombre" id="sexo">
+                            <p>Mujer</p>
+                            <input class="radio" type="radio" name="mujer" id="sexo">
+                            <p>Otro</p>
+                            <input class="radio" type="radio" name="otro" id="sexo"> 
+                            <p>FECHA DE NACIMIENTO</p>
+                            <input type="date" name="fecha" id="">
+                            <p>POLÍTICA DE PRIVACIDAD</p>
+                            <p>Aceptar:</p>
+                            <input type="checkbox" name="privacidad" id="">
+                            <textarea name="coment" id="coment" placeholder="Comentario" cols="40" rows="1"></textarea>
+                            <hr/> 
+                            <input class="submit" type="submit" value="LOG IN">
+                        </fieldset>     
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; ALONSO MARTÍNEZ - S1DAM - <a href="mailto:alumno.574777@ies-azarquiel.es">MAIL</a></footer>
+    </div>
+</body>
+</html>

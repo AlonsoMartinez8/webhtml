@@ -1,0 +1,459 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 24);
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 24);
+}
+header {
+    border-bottom-left-radius: 25px;
+    border: 1px solid white ;
+    background-size: cover;
+    height: 150px;
+    background-image: url(../img/DALL·E\ 2022-10-20\ 08.47.38\ -\ A\ dark\ purle\ blue\ texture\ in\ vapor\ wave\ style.png);
+}
+#principal{
+
+}
+footer {
+    background-color: rgb(223, 208, 218);
+    color: rgb(55, 69, 190);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 15px 0 0 0;
+}
+nav {
+    padding: 0;
+    margin: auto 10px;
+    width: 12%;
+    height: 520px;
+    float: left;
+}
+#content {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    width: 75%;
+    height: 520px;
+    background-image: url(../img/DALL·E\ 2022-10-20\ 09.09.52\ -\ A\ light\ purle\ blue\ texture\ in\ vapor\ wave\ style.png);
+    float: right;
+    overflow-y: scroll;
+}
+#content::-webkit-scrollbar {
+    width: 0px;
+}
+.home{
+    font-size: smaller;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.caja{
+    text-align: center;
+    width: 400px;
+    background-color: rgba(82, 20, 139, 0.568);
+}
+#parrafos{
+    font-size: small;
+    flex: 1;
+    padding: 15px;
+}
+#home{
+    font-size: small;
+    flex: 1;
+    padding: 15px;
+    background-image: url(../img/DALL·E\ 2022-10-20\ 08.54.07\ -\ A\ computer\ scientist\ designing\ a\ web\ in\ html5\ image\ with\ home\ shape\ vaporwave\ style.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#enlaces{
+    font-size: small;
+    flex: 1;
+    padding: 15px;
+}
+#listas{
+    font-size: small;
+    flex: 1;
+    padding: 15px;
+}
+.txt-center{
+    margin: 0;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 5px 5px rgb(125, 64, 223), 5px 0px 5px rgb(9, 243, 40);
+    text-align: center;
+    border: 1px solid rgb(195, 0, 255);
+    border-radius: 100px;
+    background-color: rgb(184, 201, 255);
+}
+.cb {
+    clear: both;
+}
+nav{
+    margin-left: 60px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+    border-radius: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 15px 0;
+    border: dashed 1px rgb(238, 230, 216);
+}
+nav ul li:hover {
+    color: grey;
+    background-color: rgb(232, 171, 240);
+    border-radius: 100px;
+    border: 1px dashed blueviolet;
+}
+a {
+    text-decoration: none;
+}
+.logo{
+    float: left;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(154, 164, 255);
+    text-align: center;
+    padding: 35px;
+    float: right;
+}
+.site{
+    padding: 5px;
+    margin: 10px 10px auto 10px;
+    margin-left: 40px;
+    width: 15%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border-bottom: 1px solid rgb(154, 164, 255);
+    border-bottom-right-radius: 10px;
+    color: rgb(154, 164, 255);
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+.data{
+    width: 75%;
+    padding: 5px;
+    margin: 10px;
+    float: right;
+    color: rgb(154, 164, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid rgb(154, 164, 255);
+    border-bottom-left-radius: 10px;
+}
+.tag{
+    color: rgb(173, 18, 7);
+    font-weight: bold;
+}
+.href{
+    font-weight: bold;
+    color: rgb(57, 93, 126);
+    padding: 10px 0;
+}
+.href:hover{
+    color: rgb(74, 81, 173);
+    background-color: rgba(255, 143, 231, 0.26);
+    border-radius: 10px;
+}
+/*---------*/
+ul.custom-u li{
+    list-style: square;
+}
+ul.custom-u li li{
+    list-style: disc;
+}
+ul.custom-u li li li{
+    list-style: circle;
+}
+/*---------*/
+ol.custom-o li{
+    list-style: upper-roman;
+}
+ol.custom-o li li{
+    list-style: lower-greek;
+}
+ol.custom-o li li li{
+    list-style: decimal;
+}
+/*---------*/
+
+.custom-img{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(66, 55, 105);
+    padding: 20px;
+}
+ol.custom-img li li{
+    list-style-image: url(../img/list-img.png);
+    color: black;
+}
+ol.custom-img li li li{
+    list-style-image: none;
+    list-style: georgian;
+    color: rgb(105, 55, 78);
+}
+dt{
+    color: rgb(112, 0, 75);
+    background-color: rgb(127, 178, 255);
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+dd{
+    padding: 5px;
+}
+
+table.theader th{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 24px;
+}
+table.theader td{
+    background-color: aliceblue;
+    color: blue;
+    font-size: 24px;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+}
+table.striped tr:nth-child(even){
+    background-color: rgb(219, 255, 219);
+    color: green;
+}
+table.striped tr:nth-child(odd){
+    background-color: rgb(255, 219, 247);
+    color: rgb(128, 0, 107);
+}
+
+.horario{
+    font-size: 15px;
+    border: solid 5px black;
+    box-shadow: 10px 10px 25px rgb(95, 0, 79), -10px -10px 25px rgb(95, 0, 79);
+    margin: 20px auto;
+}
+.horario th{
+    padding: 5px 15px;
+}
+.prog{
+    background-color: rgb(69, 82, 202);
+}
+.bdd{
+    background-color: rgb(69, 202, 195);
+}
+.sisi{
+    background-color: rgb(189, 202, 69);
+}
+.fol{
+    background-color: rgb(202, 69, 87);
+}
+.ende{
+    background-color: rgb(198, 69, 202);
+}
+.lmsg{
+    background-color: rgb(69, 202, 91);
+}
+.ing{
+    background-color: rgb(88, 101, 104);
+}
+.recreo{
+    background-color: rgb(255, 50, 50);
+    font-weight: bold;
+}
+.horario th{
+    background-color: #c4e2ff;
+    color: rgb(90, 125, 189);
+}
+
+.caption{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+/*---------------------------------------------------*/
+form .registro{
+    margin: 50px;
+    text-align: center;
+}
+.registro fieldset{
+    background-color: rgb(117, 110, 160);
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+.registro input{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    margin: 15px 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.registro p{
+    font-weight: bold;
+    text-align: center;
+}
+form.registro legend{
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+form.registro input.submit{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(130, 203, 206);
+    background-color: rgb(85, 76, 65);
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+form.registro input.submit:hover{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(85, 76, 65);
+    background-color: rgb(130, 203, 206);
+    border: 1px solid rgb(41, 4, 77);
+    border-radius: 5px;
+}
+#coment{
+    font-size: 8px;
+}
+/*--------------------------------------------*/
+#multimedia{
+    font-size: small;
+    flex: 1;
+    padding: 15px;
+}
+#multimedia h2{
+    text-align: center;
+}
+#multimedia video{
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px 100px;
+}
+#multimedia audio{
+    width: 80%;
+    margin: 20px 100px;
+}
+/*--------------------------------------------*/
+#formhtml5{
+    font-size: small;
+    flex: 1;
+    padding: 15px;
+}
+#formhtml5 form{
+    width: 50%;
+    text-align: center;
+    margin: 50px 250px;
+}
+#formhtml5 fieldset{
+    background-color: rgb(117, 110, 160);
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+#formhtml5 legend{
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+#formhtml5 input.btn{
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(130, 203, 206);
+    background-color: rgb(85, 76, 65);
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+#formhtml5 input.btn:hover{
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(85, 76, 65);
+    background-color: rgb(130, 203, 206);
+    border: 1px solid rgb(41, 4, 77);
+    border-radius: 5px;
+}
+#formhtml5 input{
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+p #range{
+    width: 150px;
+    padding: 0;
+
+}
+p #textRango{
+    width: 50px;
+    padding: 0;
+    text-align: center;
+    background: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+#color{
+    height: 50px;
+    background: none;
+    border: none;
+}
