@@ -46,6 +46,7 @@ nav {
     width: 75%;
     height: 520px;
     background-image: url(../img/DALL·E\ 2022-10-20\ 09.09.52\ -\ A\ light\ purle\ blue\ texture\ in\ vapor\ wave\ style.png);
+    background-size: cover;
     float: right;
     overflow-y: scroll;
 }
